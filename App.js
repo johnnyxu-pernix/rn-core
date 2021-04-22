@@ -18,6 +18,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Text>Test Client</Text>
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
