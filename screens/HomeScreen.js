@@ -6,7 +6,7 @@ import DatePicker from 'react-native-datepicker';
 export default HomeScreen = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+      <Text>Home Screen Test Client</Text>
       <Text>{moment().format('LLLL')}</Text>
       <DatePicker
         style={{width: 200}}
