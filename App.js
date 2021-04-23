@@ -8,7 +8,7 @@ import moment from 'moment';
 function HomeScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+      <Text>Home Screen for Test client</Text>
       <Text>{moment().format('LLLL')}</Text>
     </View>
   );
