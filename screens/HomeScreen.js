@@ -13,7 +13,7 @@ export default HomeScreen = () => {
         date={this.state.date}
         mode="date"
         placeholder="select date"
-        format="YYYY-MM-DD"
+        format="YYYY-DD-MM"
         minDate="2016-05-01"
         maxDate="2016-06-01"
         confirmBtnText="Confirm"
