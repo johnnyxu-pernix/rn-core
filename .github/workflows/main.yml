@@ -1,0 +1,21 @@
+name: React Native Core 
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update-cms-master:
+    name: Merge master into clients master
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge-test_client
+        with:
+          github_token: ${{ github.token }}
+          source: 'master'
+          target: 'master-test_client'
