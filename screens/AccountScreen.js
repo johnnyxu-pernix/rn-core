@@ -9,7 +9,7 @@ export default AccountScreen = () => {
       <Text>Account Screen</Text>
       <Text>{moment().format('LLLL')}</Text>
       <DatePicker
-        style={{width: 200}}
+        style={{width: 100}}
         date={this.state.date}
         mode="date"
         placeholder="select date"
